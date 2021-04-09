@@ -19,6 +19,14 @@ $("#15").val(localStorage.getItem("15"))
 $("#16").val(localStorage.getItem("16"))
 $("#17").val(localStorage.getItem("17"))
 
-var currentTime = moment().format("HH");
+var currentTime = moment().format("HH")
+
+if (currentTime > 9) {
+    $("#9").addClass("past-grey")    
+};
+
+// if (9 = 9) {
+//     $("#9").addClass("past-grey")
+// }
 
 console.log(currentTime)
