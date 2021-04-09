@@ -12,6 +12,7 @@ An app to track and plan your day.
 * Fontawesome
 
 ## Website
+https://heatherjswift.github.io/calender-app/
 
 ## Screenshot
-![appscreenshot](assets/images/calender-app.png)
+![appscreenshot](assets/images/calender-app-screenshot.png)
